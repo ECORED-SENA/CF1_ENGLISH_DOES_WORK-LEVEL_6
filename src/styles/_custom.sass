@@ -2,14 +2,33 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 10%
+    right: 80%
   &-2
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 10%
+    right: 20%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 45%
+    right: 10%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 20%
+  &-5
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 80%
+    right: 50%
+  &-6
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 50%
+    right: 70%
 
 @keyframes float1
   0%
@@ -17,3 +36,213 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-principal__row .banner-principal__img
+  width: 470px
+
+.banner-principal__componente
+  margin-top: 35px
+  h1
+    color: #3C3FA7
+    .span1
+      em
+        padding-top: 0px
+        display: block
+    span
+      color: #6B8DFC
+      display: block
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.svg") !important
+
+.traduccion__chat__item__message__bubble
+  border: 0px !important
+  background-color: #E1E8FF !important
+  padding: 20px !important
+
+.traduccion.color-primario button
+  background-color: #3C3FA7 !important
+
+.traduccion.color-primario button:hover
+  background-color: #898ce0 !important
+
+.text__ing
+  font-style: normal !important
+  em
+    span
+      color: #FC5F65
+  ul
+    padding-left: 20px
+
+.text__esp
+  color: #777777 !important
+  i
+    color: #FC5F65
+  ul
+    padding-left: 20px
+
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #3C3FA7
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #3C3FA7
+
+.tarjeta-audio.color-primario
+  background-color: white
+  .tarjeta-audio__texto
+    p
+      color: #12263F
+      margin-bottom: 0px
+      font-style: normal !important
+    em
+      color: #FC5F65
+      font-weight: bold
+      c1
+        color: #12263F
+        background-color: #FFD947
+        padding: 3px
+      c2
+        color: #3C3FA7
+      c3
+        color: #6B8DFC
+
+.tarjeta--c1
+  background-color: #FFE891
+
+.tabs-b__tab__icon
+  width: 70px
+
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  background-color: #FFF7DA
+
+.tarjeta.color-primario
+  background-color: #A6BBFF
+  height: 500px
+
+.bg-color1
+  background-color: #FFF0F1
+  border-radius: 15px
+
+.bg-color2
+  background-color: #FFDFE0
+  border-radius: 15px
+
+.bg-color3
+  background-color: #6B8DFC
+  margin-inline: -3.2rem !important
+  background-repeat: no-repeat
+
+.bg-color4
+  background-color: #FFF7DA
+  margin-inline: -3.2rem !important
+  background-repeat: no-repeat
+
+.bg-color5
+  background-color: #FFF7DA
+
+.bg-color6
+  background-color: #3C3FA7
+  margin-inline: -3.2rem !important
+  background-repeat: no-repeat
+
+.bg-color7
+  background-image: url(../assets/curso/tema1/img32.svg)
+  background-repeat: no-repeat
+  background-position: center right
+  padding: 0px
+  border-radius: 0px
+
+.bg-color8
+  background-color: #E1E8FF
+  border-radius: 15px
+  transition: all 0.5s
+.bg-color8:hover
+  background-color: #3C3FA7
+  transition: all 0.5s
+  p
+    color: white
+
+.bg-color9
+  background-color: #FFF7DA
+  border-radius: 15px
+
+.bg-color10
+  background-color: #A6BBFF
+  border-radius: 15px
+  transition: all 0.5s
+.bg-color10:hover
+  background-color: #3C3FA7
+  transition: all 0.5s
+
+.bg-color11
+  background-color: white
+  border-radius: 15px
+  border: 3px solid #3C3FA7
+
+.bg-color12
+  background-color: #D5D6F0
+  margin-inline: -3.2rem !important
+  background-repeat: no-repeat
+
+.bg-color13
+  background-color: white
+  border-radius: 15px
+  padding: 25px
+
+.bg-color14
+  background-image: url(../assets/curso/tema1/img54.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  border-radius: 25px
+
+.bgt-1
+  background-color: #3C3FA7
+  p
+    color: white
+
+.bgt-2
+  border: 1px solid #3C3FA7
+
+.txt-c1
+  color: #6B8DFC
+
+.txt-c2
+  color: #3C3FA7 !important
+
+.txt-c3
+  color: #777777
+
+.txt-c4
+  color: #FFD947
+
+.txt-c5
+  color: #FC5F65 !important
+
+.fig-p1
+  position: absolute
+  left: 1230px
+
+.fig-p2
+  position: absolute
+  left: 440px
+
+@media screen and ( max-width: 992px )
+
+  .bg-color7
+    background-image: none
+    background-color: #FFF7DA
+    padding: 20px
+    border-radius: 15px
+
+  .fig-p1
+    left: 340px
+
+  .fig-p2
+    left: 10px
