@@ -1017,7 +1017,7 @@
                           :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
                         )
     p.mb-5 A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema:
-    Dialogo.color-acento-contenido.mb-5(:dialogo="dialogo")
+    Dialogo.color-acento-contenido(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) #[i A short story] / Un cuento corto.
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
