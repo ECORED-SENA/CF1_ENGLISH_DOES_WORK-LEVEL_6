@@ -1128,7 +1128,7 @@ export default {
       dialogo: [
         {
           personaje: 'James',
-          textoIng: ' Clarisse, *** my car’s keys?',
+          textoIng: 'Clarisse, *** my car’s keys?',
           textoEsp: 'Clarisse, ¿has visto las llaves de mi carro?',
           audio: require('@/assets/curso/tema1/audio1.mp3'),
           palabra: 'have you seen',
