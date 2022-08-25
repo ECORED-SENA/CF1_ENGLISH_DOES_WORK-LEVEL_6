@@ -184,7 +184,7 @@
     p.mb-5 El siguiente video amplía la información sobre el uso del #[i present perfect].
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/UA7OSCHDbMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 #[i.txt-c2 As can be seen in the previous examples, the present perfect tense is formed using the auxiliary verb "to have" conjugated in the corresponding grammatical person in the present tense, plus the past participle of the main verb of the sentence, according to the following structure:] / #[span.txt-c3 Como puede observarse en los ejemplos anteriores, el tiempo presente perfecto se forma utilizando el verbo auxiliar “to have” conjugado en la persona gramatical correspondiente en tiempo presente, más el participio pasado del verbo principal de la oración, de acuerdo con la siguiente estructura:]
     .row.bg-color4
       .col-12.p-5
@@ -747,7 +747,7 @@
     p.mb-5 #[i.txt-c2 In this compound verb tense (Present Perfect), affirmative, negative and interrogative structures are also handled, as can be seen in the following video:] #[span.txt-c3 / En este tiempo verbal compuesto (Presente Perfecto), también se manejan las estructuras afirmativas, negativas e interrogativas, como se puede observar en el siguiente video:]
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/sNMPApLiotQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_1_4
     .titulo-segundo.color-primario
