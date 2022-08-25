@@ -16,7 +16,7 @@
     .row.bg-color15.mb-5
       .col-12.p-4
         .row.align-items-center
-          .col-lg-3
+          .col-lg-3.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema2/img2.svg')
           .col-lg-9
