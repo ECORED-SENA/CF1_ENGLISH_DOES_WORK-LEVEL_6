@@ -12,22 +12,21 @@
       .col-lg-6
         .row
           .col-12.p-4.p-lg-5.bg-color1
-            p.mb-0 #[b #[i Present Perfect]]
-            p.mb-4 #[i We use Present Perfect for actions in the past which have a connection to the present, the time when these actions happened is not important].
-            .row.mb-4
+            .row
               .col-12.p-4.bg-color2
+                p.mb-4 #[i We use Present Perfect for actions in the past which have a connection to the present, the time when these actions happened is not important].
                 h4.text-center #[i Present Perfect]
                 figure
                   img(src='@/assets/curso/tema1/img1.svg', style="width: 500px").m-auto
-                p.mb-0 #[i We use the Present Perfect for recently completed actions.]
             .row.mb-4
               .col-12.p-4
+                p #[i We use the Present Perfect for recently completed actions.]
                 h4.text-center #[i Present Perfect]
                 figure
                   img(src='@/assets/curso/tema1/img2.svg', style="width: 500px").m-auto
-                p.mb-0 #[i We use Present Perfect for actions beginning in the past and still continuing.]
             .row
               .col-12.p-4.bg-color2
+                p #[i We use Present Perfect for actions beginning in the past and still continuing.]
                 h4.text-center #[i Present Perfect]
                 figure
                   img(src='@/assets/curso/tema1/img3.svg', style="width: 500px").m-auto
@@ -52,17 +51,17 @@
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Susy has worked here since 2019."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_1.wav')"
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="They have not paid any rent for several months."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_2.wav')"
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Caroline has practiced swimming in this pool since she was little."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_3.wav')"
                         )
                     figure
                       img(src='@/assets/curso/tema1/img5.svg')
@@ -75,17 +74,17 @@
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Frank has gone to Brazil."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_4.wav')"
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Lia has lost her Ipod."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_5.wav')"
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="They have climbed that mountain together."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_6.wav')"
                         )
                     figure
                       img(src='@/assets/curso/tema1/img6.svg')
@@ -98,17 +97,17 @@
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Carol and Sue have gone to the gym once a week."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_7.wav')"
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Mario has looked for a job this month."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_8.wav')"
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="They have been in line to pay for public services."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_9.wav')"
                         )
                     figure
                       img(src='@/assets/curso/tema1/img7.svg')
@@ -121,17 +120,17 @@
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Paul and Linda have gone to the movies several times."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_10.wav')"
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Julia has visited the theater at every premiere of a play."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_11.wav')"
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Sara has talked to her son about sexuality several times."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_12.wav')"
                         )
                     figure
                       img(src='@/assets/curso/tema1/img8.svg')
@@ -144,17 +143,17 @@
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Joseph has fixed his car just now."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_13.wav')"
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="They have ended their relationship just this week."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_14.wav')"
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Mary has just finished her housework at home."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_15.wav')"
                         )
                     figure
                       img(src='@/assets/curso/tema1/img9.svg')
@@ -167,17 +166,17 @@
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="I have lived near famous movie stars."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_16.wav')"
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Debbie has studied in Harvard for her Law degree."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_17.wav')"
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
                           texto="Donald has won the lottery."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/1_18.wav')"
                         )
                     figure
                       img(src='@/assets/curso/tema1/img10.svg')
@@ -231,22 +230,22 @@
           .col-auto
             TarjetaAudio.color-primario.mb-3(
               texto="<p><em>I <c1>have</c1> <c2>worked</c2> <c3>very hard</c3></em> / Yo he trabajado muy duro.</p>"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema1/2_1.wav')"
               no-barra
             )
             TarjetaAudio.color-primario.mb-3(
               texto="<p><em>Mary <c1>has</c1> <c2>listened</c2> <c3>to the radio</c3></em> / Ella ha escuchado la radio.</p>"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema1/2_2.wav')"
               no-barra
             )
             TarjetaAudio.color-primario.mb-3(
               texto="<p><em>George <c1>has</c1> <c2>bought</c2> <c3>a big house</c3></em> / Él ha comprado una casa grande.</p>"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema1/2_3.wav')"
               no-barra
             )
             TarjetaAudio.color-primario.mb-3(
               texto="<p><em>Ida and Susy <c1>have</c1> <c2>traveled</c2> <c3>abroad</c3></em> / Ellas han viajado al extranjero.</p>"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema1/2_4.wav')"
               no-barra
             )
     Separador
@@ -303,7 +302,7 @@
             .row.p-4
               .col-12
                 h4 #[i.txt-c2 Structure 1]
-                p When the verb ends in a consonant before "y", the letter "y" is changed to "i" and the ending "ed" is added. / #[span.txt-c3 Cuando el verbo termina en consonante antes de “y”, se cambia la letra “y” por “i” y se agrega la terminación “-ed”.]
+                p #[i When the verb ends in a consonant before "y", the letter "y" is changed to "i" and the ending "ed" is added.] / #[span.txt-c3 Cuando el verbo termina en consonante antes de “y”, se cambia la letra “y” por “i” y se agrega la terminación “-ed”.]
                 p #[i For example:] / Por ejemplo:
                 .row.justify-content-center
                   .col-10.col-lg-auto.mb-3.mb-lg-0
@@ -319,7 +318,7 @@
             .row.p-4
               .col-12
                 h4 #[i.txt-c2 Structure 2]
-                p When there are irregular verbs that have a different past participle. / #[span.txt-c3 Cuando hay verbos irregulares que tienen un participio pasado diferente].
+                p #[i When there are irregular verbs that have a different past participle.] / #[span.txt-c3 Cuando hay verbos irregulares que tienen un participio pasado diferente].
                 p #[i For example:] / Por ejemplo:
                 .row.justify-content-center
                   .col-10.col-lg-auto.mb-3.mb-lg-0
@@ -346,49 +345,49 @@
                         p.text-center.mb-3 #[b #[i Awake- Awoken]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Lucy has awoken to reality."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_1.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Bit- Bitten]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Firulay has bitten my favorite toy."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_5.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Beat- Beaten]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="The boy has beaten  his little friend."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_2.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Buy- Bought]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Frank has bought a blue car."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_6.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Begin- Begun]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Cindy has begun to study French."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_3.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Fly- Flown]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="The eagle has flown to its nest."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_7.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Build- Built]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="The engineer has built a beautiful building."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_4.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Feel- Felt]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Patrick has felt a lot of pain for your departure."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_8.wav')"
                         )
                 .row
                   .col-12.p-4
@@ -398,49 +397,49 @@
                         p.text-center.mb-3 #[b #[i Fall- Fallen]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Billy has fallen from the ladder!"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_9.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Draw- Drawn]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Vincent has drawn several sketches."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_13.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Eat- Eaten]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Mark has eaten a big piece of cake!"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_10.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Choose- Chosen]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Sue has chosen the ring with a diamond."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_14.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Drive- Driven]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Have you ever driven a bike?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_11.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Catch- Caught]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Robert has caught the ball several times."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_15.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Drink- Drunk]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Mickie has drunk all the soda."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_12.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Give- Given]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Lucas has given a birthday present to your baby."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_16.wav')"
                         )
                 .row
                   .col-12.p-4
@@ -450,49 +449,49 @@
                         p.text-center.mb-3 #[b #[i Go- Gone]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="I have gone to the movies twice this week."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_17.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Hide- Hidden]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Molly has hidden the car keys."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_21.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Get- Got/Gotten]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="All students have got their diplomas."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_18.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Hear- Heard]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Conny has not heard your side of the story."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_22.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Keep- Kept]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Her grandmother has kept her love letters."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_19.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Have- Had]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Mike has had a lot of work."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_23.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Know- Known]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Mary has always known that you are married."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_20.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Sing- Sung]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Samantha has sung at the party all night."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_24.wav')"
                         )
                 .row
                   .col-12.p-4
@@ -502,49 +501,49 @@
                         p.text-center.mb-3 #[b #[i Sell- Sold]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="The travel agency has sold all the tickets to Miami."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_25.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Read- Read]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Felix has read many novels."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_29.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i See- Seen]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Paul has seen all the works of Picasso in the museum."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_26.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Put- Put]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Candy has put the money in a safe."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_30.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Say - Said]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Donald has said the truth all time."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_27.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Pay- Paid]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="My parents have paid all my debts"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_31.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Ring- Rung]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Nick has rung all day."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_28.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Meet- Met]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="I have met my friends at the club."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_32.wav')"
                         )
                 .row
                   .col-12.p-4
@@ -554,25 +553,25 @@
                         p.text-center.mb-3 #[b #[i Make- Made]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Melina has made a very nice ornament."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_33.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Lose- Lost]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Charles has lost his wallet."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_35.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Leave - Left]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="That boy has left a package for you."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_34.wav')"
                         )
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Lend- Lent]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Your cousin has lent you his suit for graduation."
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/3_36.wav')"
                         )
           .col-lg-auto.d-none.d-lg-block
             figure
@@ -595,12 +594,12 @@
                   .col-lg-6.mb-4.mb-lg-0
                     TarjetaAudio.color-primario(
                       texto="She is going to have a nap in the hammock."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema1/4_1.wav')"
                     )
                   .col-lg-6
                     TarjetaAudio.color-primario(
                       texto="Sue and Marty are going to have a drink together."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema1/4_2.wav')"
                     )
           .col-10
             .row.justify-content-center.align-items-center.bg-color7
@@ -611,13 +610,13 @@
                 .row
                   .col-lg-6.mb-4.mb-lg-0
                     TarjetaAudio.color-primario(
-                      texto="She is going to have a nap in the hammock."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      texto="You have to study more."
+                      :audio="require('@/assets/curso/tema1/4_3.wav')"
                     )
                   .col-lg-6
                     TarjetaAudio.color-primario(
-                      texto="Sue and Marty are going to have a drink together."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      texto="They have to explain what happened."
+                      :audio="require('@/assets/curso/tema1/4_4.wav')"
                     )
       .col-lg-auto.d-none.d-lg-block
         figure
@@ -696,7 +695,7 @@
               img(src='@/assets/curso/tema1/img34.svg')
             TarjetaAudio.color-primario.mb-3(
                 texto="I have worked very hard."
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                :audio="require('@/assets/curso/tema1/5_1.wav')"
               )
             p.ms-3.mb-0 Yo he trabajado muy duro.
           .col-lg.bg-color8.p-4.m-2
@@ -704,7 +703,7 @@
               img(src='@/assets/curso/tema1/img35.svg')
             TarjetaAudio.color-primario.mb-3(
                 texto="You have worked very hard."
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                :audio="require('@/assets/curso/tema1/5_3.wav')"
               )
             p.ms-3.mb-0 Tú has trabajado muy duro.
           .col-lg.bg-color8.p-4.m-2
@@ -712,7 +711,7 @@
               img(src='@/assets/curso/tema1/img36.svg')
             TarjetaAudio.color-primario.mb-3(
                 texto="He has worked very hard."
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                :audio="require('@/assets/curso/tema1/5_5.wav')"
               )
             p.ms-3.mb-0 Él ha trabajado muy duro.
         .row
@@ -721,7 +720,7 @@
               img(src='@/assets/curso/tema1/img37.svg')
             TarjetaAudio.color-primario.mb-3(
                 texto="We have worked very hard."
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                :audio="require('@/assets/curso/tema1/5_2.wav')"
               )
             p.ms-3.mb-0 Nosotros hemos trabajado duro.
           .col-lg.bg-color8.p-4.m-2
@@ -729,7 +728,7 @@
               img(src='@/assets/curso/tema1/img38.svg')
             TarjetaAudio.color-primario.mb-3(
                 texto="You have worked very hard."
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                :audio="require('@/assets/curso/tema1/5_4.wav')"
               )
             p.ms-3.mb-0 Ustedes han trabajado duro.
           .col-lg.bg-color8.p-4.m-2
@@ -737,7 +736,7 @@
               img(src='@/assets/curso/tema1/img39.svg')
             TarjetaAudio.color-primario.mb-3(
                 texto="They have worked very hard."
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                :audio="require('@/assets/curso/tema1/5_6.wav')"
               )
             p.ms-3.mb-0 Ellos han trabajado duro.
     Separador
@@ -751,7 +750,7 @@
     Separador
     #t_1_4
     .titulo-segundo.color-primario
-      h2 1.4 #[i Auxiliary Have - Has]  / Auxiliar #[i Have - Has]
+      h2 1.4 #[i Structure of questions and answers] / Estructura de preguntas y respuestoas
     .row.mb-5
       .col-lg-auto.d-none.d-lg-block
         figure
@@ -769,35 +768,35 @@
             p.text-center.mb-3 Pregunta
             TarjetaAudio.color-primario.mb-3(
               texto="<p><em>Has Lucy travelled to Europe?</em> / ¿Ha viajado Lucy a Europa?</p>"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema1/6_1.wav')"
             )
           .col-lg-6
             p.text-center.mb-0 #[b #[i Short answer - affirmative]]
             p.text-center.mb-3 Respuesta corta - afirmativa
             TarjetaAudio.color-primario.mb-3(
               texto="<p><em>Yes, she has.</em> / Si, ella sí.</p>"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema1/6_4.wav')"
             )
           .col-lg-6
             p.text-center.mb-0 #[b #[i Affirmative answer]]
             p.text-center.mb-3 Respuesta afirmativa
             TarjetaAudio.color-primario.mb-3(
               texto="<p><em>Yes, she has travelled to Europe.</em> / Si, Ella ha viajado a Europa.</p>"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema1/6_2.wav')"
             )
           .col-lg-6
             p.text-center.mb-0 #[b #[i Short answer - negative]]
             p.text-center.mb-3 Respuesta corta - negativa
             TarjetaAudio.color-primario.mb-3(
               texto="<p><em>No, she has not.</em> / No, ella no.</p>"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema1/6_5.wav')"
             )
           .col-lg-6
             p.text-center.mb-0 #[b #[i Negative answer]]
             p.text-center.mb-3 Respuesta negativa
             TarjetaAudio.color-primario.mb-3(
               texto="<p><em>No, she has not travelled to Europe.</em> / No, ella no ha viajado a Europa.</p>"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema1/6_3.wav')"
             )
       .col-lg-4
         p.txt-c2 As can be seen, the pronoun “she” has been used instead of the name “Lucy” in the responses. Both options are valid, that is, it can be answered using the respective noun or pronoun, since both forms are correct.
@@ -813,7 +812,7 @@
         .row
           .col-12.bg-color11.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema1/7_1.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -825,7 +824,7 @@
         .row
           .col-12.bg-color11.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema1/7_2.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -837,7 +836,7 @@
         .row
           .col-12.bg-color11.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema1/7_3.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -864,7 +863,7 @@
                 .row
                   .col-12.bg-color13
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema1/8_1.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -877,7 +876,7 @@
                 .row
                   .col-12.bg-color13
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema1/8_2.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -890,7 +889,7 @@
                 .row
                   .col-12.bg-color13
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema1/8_3.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -903,7 +902,7 @@
                 .row
                   .col-12.bg-color13
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema1/8_4.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -916,7 +915,7 @@
                 .row
                   .col-12.bg-color13
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema1/8_5.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -953,32 +952,32 @@
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3(
                           texto="Have you ever traveled by ship?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/9_1.wav')"
                         )
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3(
                           texto="Has Susan written a best-seller?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/9_4.wav')"
                         )
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3(
                           texto="Have they walked many kilometers?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/9_2.wav')"
                         )
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3(
                           texto="Has Felix broken your heart?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/9_5.wav')"
                         )
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3(
                           texto="Have Mary and Paul lived together for much time?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/9_3.wav')"
                         )
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3(
                           texto="Have you followed me on social networks?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/9_6.wav')"
                         )
                 .row
                   .col-12.p-4
@@ -989,32 +988,32 @@
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3(
                           texto="Where have you ever traveled by ship?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/9_7.wav')"
                         )
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3(
                           texto="Who has been your favorite writer until now?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/9_10.wav')"
                         )
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3(
                           texto="Who has been your partner in the office?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/9_8.wav')"
                         )
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3(
                           texto="Which trip has been the funniest?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/9_11.wav')"
                         )
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3(
                           texto="What is your goal in life?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/9_9.wav')"
                         )
                       .col-lg-6
                         TarjetaAudio.color-primario.mb-3(
                           texto="Whom have you given the car keys?"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema1/9_12.wav')"
                         )
     p.mb-5 A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema:
     Dialogo.color-acento-contenido(:dialogo="dialogo")
@@ -1088,7 +1087,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>In English, there are two main categories of questions: “yes/no questions” and “wh questions”. Two types of intonations are used to pronounce or intonate these questions: ascending intonation and descending intonation.<br><br>In general terms, it can be noted that intonation is the cadence or musical tone of the voice and it plays a very important role in English. In the following resource, you can see some examples used to identify intonation in questions.</em>',
+            '<em>In English, there are two main categories of questions: <span>“yes/no questions”</span> and <span>“wh questions”</span>. Two types of intonations are used to pronounce or intonate these questions: ascending intonation and descending intonation.<br><br>In general terms, it can be noted that intonation is the cadence or musical tone of the voice and it plays a very important role in English. In the following resource, you can see some examples used to identify intonation in questions.</em>',
           textoEsp:
             'En inglés, se cuenta con dos grandes categorías de preguntas: <i>“yes/no questions”</i> y <i>“wh questions”</i>. Para pronunciar o entonar estas preguntas, se emplean dos tipos de entonación: ascendente y descendente.<br><br>En líneas generales, puede señalarse que la entonación es la cadencia o tono musical de la voz y desempeña un papel muy importante en inglés. En el siguiente recurso, puede observar algunos ejemplos utilizados para identificar la entonación en preguntas:',
         },
@@ -1100,7 +1099,7 @@ export default {
           textoIng:
             '<em>With these types of questions, an increasing or rising intonation should be used. So, at the end of the question, the intonation should be raised slowly. Thus, it will be recognized that what was said is a question and it will sound more natural.</em>',
           textoEsp:
-            'With these types of questions, an increasing or rising intonation should be used. So, at the end of the question, the intonation should be raised slowly. Thus, it will be recognized that what was said is a question and it will sound more natural.',
+            'En este tipo de preguntas debe utilizarse una entonación creciente o ascendente. De esa manera, al final de la pregunta, la entonación debe elevarse lentamente. Así, se reconocerá que lo dicho es una pregunta y sonará más natural.',
         },
       ],
     },
@@ -1110,7 +1109,7 @@ export default {
           textoIng:
             '<em>Basically, with these questions you should use a decreasing or falling intonation, so that, at the end of the question, the intonation drops slowly.</em>',
           textoEsp:
-            'Basically, with these questions you should use a decreasing or falling intonation, so that, at the end of the question, the intonation drops slowly.',
+            'Básicamente, con estas preguntas debe utilizar una entonación decreciente o descendente, de manera que, al final de la pregunta, la entonación baje lentamente.',
         },
       ],
     },
@@ -1137,21 +1136,21 @@ export default {
           personaje: 'Clarisse',
           textoIng: 'No, James. I haven’t *** your car’s keys.',
           textoEsp: 'No, James. No he visto las llaves de tu carro.',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema1/audio1.wav'),
           palabra: '',
         },
         {
           personaje: 'James',
           textoIng: 'Oh, no! I have *** all over the house.',
           textoEsp: 'Oh, no! He buscado por toda la casa.',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema1/audio2.mp3'),
           palabra: 'searched',
         },
         {
           personaje: 'Clarisse',
           textoIng: 'Where *** you looked for them?',
           textoEsp: '¿En donde las has buscado?',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema1/audio2.wav'),
           palabra: 'have',
         },
         {
@@ -1160,7 +1159,7 @@ export default {
             'I told you: I’ve *** for the car’s keys all over the house.',
           textoEsp:
             'Te lo dije: he buscado las llaves del carro por toda la casa.',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema1/audio3.mp3'),
           palabra: 'searched',
         },
       ],

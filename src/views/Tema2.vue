@@ -34,7 +34,7 @@
                         p.mb-3 #[i For example:] / Por ejemplo:
                         TarjetaAudio.color-primario(
                           texto="<p><em>Claire and Susan have already finished  their work in the office.</em> / Claire y Susan han terminado ya su trabajo en la oficina.</p>"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema2/10_1.wav')"
                         )
                 .row
                   .col-12.p-4
@@ -48,7 +48,7 @@
                         p.mb-3 #[i For example:] / Por ejemplo:
                         TarjetaAudio.color-primario(
                           texto="<p><em>Have you ever gone to that town?</em> / ¿Has ido alguna vez a ese pueblo?</p>"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema2/10_2.wav')"
                         )
                 .row
                   .col-12.p-4
@@ -62,7 +62,7 @@
                         p.mb-3 #[i For example:] / Por ejemplo:
                         TarjetaAudio.color-primario(
                           texto="<p><em>Robert has lived in New York for many years.</em> / Robert ha vivido en New York por muchos años.</p>"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema2/10_3.wav')"
                        )
                 .row
                   .col-12.p-4
@@ -75,8 +75,8 @@
                       .col-lg
                         p.mb-3 #[i For example:] / Por ejemplo:
                         TarjetaAudio.color-primario(
-                          texto="<p><em>Robert has lived in New York for many years.</em> / Robert ha vivido en New York por muchos años.</p>"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          texto="<p><em>How long has Cheryl swum in the pool?</em> / ¿Cuánto tiempo ha nadado Cheryl en la piscina?</p>"
+                          :audio="require('@/assets/curso/tema2/10_4.wav')"
                         )
                 .row
                   .col-12.p-4
@@ -90,7 +90,7 @@
                         p.mb-3 #[i For example:] / Por ejemplo:
                         TarjetaAudio.color-primario(
                           texto="<p><em>I have just finished cooking the turkey for dinner.</em> / Apenas he terminado de cocinar el pavo para la cena.</p>"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema2/10_5.wav')"
                         )
                 .row
                   .col-12.p-4
@@ -104,7 +104,7 @@
                         p.mb-3 #[i For example:] / Por ejemplo:
                         TarjetaAudio.color-primario(
                           texto="<p><em>Mr. Montero has recently bought a yacht.</em> / El señor Montero ha comprado recientemente un yate.</p>"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema2/10_6.wav')"
                         )
                 .row
                   .col-12.p-4
@@ -118,11 +118,11 @@
                         p.mb-3 #[i For example:] / Por ejemplo:
                         TarjetaAudio.color-primario(
                           texto="<p><em>Mr. Gómez has worked at that institute since 1998.</em> / El Sr. Gómez ha trabajado en ese instituto desde 1998.</p>"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema2/10_7.wav')"
                         )
                 .row
                   .col-12.p-4
-                    h4.text-center.mb-4 #[b #[i So far/Up to now]]
+                    h4.text-center.mb-4 #[b #[i So far / Up to now]]
                     Traduccion.color-primario.mb-4(:dialogo="traduccion9")
                     .row.align-items-center
                       .col-lg-auto
@@ -132,7 +132,7 @@
                         p.mb-3 #[i For example:] / Por ejemplo:
                         TarjetaAudio.color-primario(
                           texto="<p><em>That band has performed in this theater so far.</em> / Esa banda se ha presentado en este teatro hasta ahora.</p>"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema2/10_8.wav')"
                         )
                 .row
                   .col-12.p-4
@@ -146,7 +146,7 @@
                         p.mb-3 #[i For example:] / Por ejemplo:
                         TarjetaAudio.color-primario(
                           texto="<p><em>Monique still hasn’t washed the dishes.</em> / Monique todavía no ha lavado los platos.</p>"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema2/10_9.wav')"
                         )
                 .row
                   .col-12.p-4
@@ -160,7 +160,7 @@
                         p.mb-3 #[i For example:] / Por ejemplo:
                         TarjetaAudio.color-primario(
                           texto="<p><em>They haven’t eaten their lunch yet.</em> / Ellos no han comido su almuerzo todavía.</p>"
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                          :audio="require('@/assets/curso/tema2/10_10.wav')"
                         )
     p.mb-5 A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema:
     Dialogo.color-acento-contenido(:dialogo="dialogo")
@@ -184,7 +184,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>There are certain expressions that are used with the present perfect as their main use is to describe past events that are still important in the present. Among these expressions, the following can be named: <span>“already”</span>, <span>“for”</span>, <span>“just”</span>, <span>“since”</span>, <span>“yet”</span>, and so on.</em>',
+            '<em>There are certain expressions that are used with the present perfect as their main use is to describe past events that are still important in the present. Among these expressions, the following can be named: <span>“already”</span>, <span>“ever”</span>, <span>“for”</span>, <span>“how long”</span>, <span>“just”</span>, <span>“recently”</span>, <span>“since”</span>, <span>“still”</span>, <span>“yet”</span>, and so on.</em>',
           textoEsp:
             'Existen ciertas expresiones que se utilizan con el presente perfecto debido a que su principal uso es para describir los acontecimientos pasados que tienen todavía importancia en el presente. Entre estas expresiones, se pueden nombrar las siguientes: <i>“already”</i>, <i>“ever”</i>, <i>“for”</i>, <i>“how long”</i>, <i>“just”</i>, <i>“recently”</i>,  <i>“since”</i>, <i>“still”</i>,  <i>“yet”</i>, entre otras.',
         },
@@ -194,9 +194,9 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>It is used to indicate that the simple present perfect describes an action that began in the past and has continued up to the present moment. It is used in affirmative sentences and in questions in order to give emphasis. It means: “still” or “already”. It is usually placed between the auxiliary verb “to have” and the past participle of the main verb. It can also be placed at the end of the sentence.</em>',
+            '<em>It is used to indicate that the simple present perfect describes an action that began in the past and has continued up to the present moment. It is used in affirmative sentences and in questions in order to give emphasis. It means: <span>“still”</span> or <span>“already”</span>. It is usually placed between the auxiliary verb <span>“to have”</span> and the past participle of the main verb. It can also be placed at the end of the sentence.</em>',
           textoEsp:
-            'Se utiliza para indicar que el presente perfecto simple describe una acción que comenzó en el pasado y ha continuado hasta el momento presente. Se usa en oraciones afirmativas y en preguntas para dar énfasis. Significa: <i>still</i> o <i>“already”</i>. Se suele colocar entre el verbo auxiliar <i>“to have”</i> y el participio pasado del verbo principal. También se puede colocar al final de la oración.',
+            'Se utiliza para indicar que el presente perfecto simple describe una acción que comenzó en el pasado y ha continuado hasta el momento presente. Se usa en oraciones afirmativas y en preguntas para dar énfasis. Significa: <i>“still”</i> o <i>“already”</i>. Se suele colocar entre el verbo auxiliar <i>“to have”</i> y el participio pasado del verbo principal. También se puede colocar al final de la oración.',
         },
       ],
     },
@@ -306,14 +306,14 @@ export default {
           personaje: 'Barbie',
           textoIng: 'Have you *** bought cookies at Kris’s Cookies?',
           textoEsp: 'Alguna vez has probado galletas en Kris’s Cookies',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema2/audio1.wav'),
           palabra: 'ever',
         },
         {
           personaje: 'Paul',
           textoIng: 'Never! Why have you asked me about that?',
           textoEsp: 'Nunca! ¿Por qué me has preguntado eso?',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema2/audio1.mp3'),
           palabra: '',
         },
         {
@@ -322,28 +322,28 @@ export default {
             'Because my friends have said that those cookies are delicious!',
           textoEsp:
             'Porque mis amigos has dicho que esas galletas son deliciosas!',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema2/audio2.wav'),
           palabra: '',
         },
         {
           personaje: 'Paul',
           textoIng: 'But you *** has done a pastry course...',
           textoEsp: 'Pero, ya tu has hecho un curso de repostería...',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema2/audio2.mp3'),
           palabra: 'already',
         },
         {
           personaje: 'Barbie',
           textoIng: 'Yes, but I haven’t learned how to make cookies *** !',
           textoEsp: 'Si, pero no he aprendido cómo haceer galletas aún!',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema2/audio3.wav'),
           palabra: 'yet',
         },
         {
           personaje: 'Paul',
           textoIng: 'Well, maybe they haven’t taught that lesson *** ...',
           textoEsp: 'Bueno, quizás aún no te han dado esa lección...',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema2/audio3.mp3'),
           palabra: 'yet',
         },
       ],

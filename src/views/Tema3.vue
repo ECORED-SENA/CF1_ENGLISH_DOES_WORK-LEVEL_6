@@ -102,7 +102,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_1.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -116,7 +116,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_2.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -130,7 +130,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_3.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -144,7 +144,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_4.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -158,7 +158,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_5.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -172,7 +172,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_7.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -186,7 +186,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_8.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -200,7 +200,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_9.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -214,7 +214,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_10.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -228,7 +228,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_11.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -242,7 +242,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_12.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -256,7 +256,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_13.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -270,7 +270,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_14.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -284,7 +284,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_15.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -298,7 +298,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_16.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -312,7 +312,7 @@
                 .row
                   .col-12.borde.p-2.p-lg-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_17.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -326,7 +326,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_18.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -340,7 +340,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_19.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -354,7 +354,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_20.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -368,7 +368,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_21.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -382,7 +382,7 @@
                 .row
                   .col-12.borde.p-4
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/11_22.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -403,7 +403,7 @@
             .row.justify-content-center.bg-color19
               .col-10.bg-color20.p-4
                 Audio.color-primario.m-auto.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                  :audio="require('@/assets/curso/tema3/12_1.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -413,7 +413,7 @@
             .row.justify-content-center.bg-color21
               .col-10.bg-color20.p-4
                 Audio.color-primario.m-auto.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                  :audio="require('@/assets/curso/tema3/12_2.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -423,7 +423,7 @@
             .row.justify-content-center.bg-color22
               .col-10.bg-color20.p-4
                 Audio.color-primario.m-auto.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                  :audio="require('@/assets/curso/tema3/12_3.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -433,7 +433,7 @@
             .row.justify-content-center.bg-color23
               .col-10.bg-color20.p-4
                 Audio.color-primario.m-auto.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                  :audio="require('@/assets/curso/tema3/12_4.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -443,7 +443,7 @@
             .row.justify-content-center.bg-color24
               .col-10.bg-color20.p-4
                 Audio.color-primario.m-auto.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                  :audio="require('@/assets/curso/tema3/12_5.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -453,7 +453,7 @@
             .row.justify-content-center.bg-color25
               .col-10.bg-color20.p-4
                 Audio.color-primario.m-auto.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                  :audio="require('@/assets/curso/tema3/12_6.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -463,7 +463,7 @@
             .row.justify-content-center.bg-color26
               .col-10.bg-color20.p-4
                 Audio.color-primario.m-auto.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                  :audio="require('@/assets/curso/tema3/12_7.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -473,7 +473,7 @@
             .row.justify-content-center.bg-color27
               .col-10.bg-color20.p-4
                 Audio.color-primario.m-auto.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                  :audio="require('@/assets/curso/tema3/12_8.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -492,7 +492,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_12.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -505,7 +505,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_11.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -518,7 +518,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_10.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -531,7 +531,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_9.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -544,7 +544,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_21.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -557,7 +557,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_20.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -570,7 +570,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_19.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -583,7 +583,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_18.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -596,7 +596,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_17.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -609,7 +609,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_16.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -622,7 +622,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_15.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -635,7 +635,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_14.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -648,7 +648,7 @@
                 .row
                   .col-12.bg-color28
                     Audio.color-primario.m-auto.mb-3(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+                      :audio="require('@/assets/curso/tema3/12_13.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -663,7 +663,7 @@
         .row.justify-content-center.bg-color29
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_26.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -673,7 +673,7 @@
         .row.justify-content-center.bg-color30
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_25.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -683,7 +683,7 @@
         .row.justify-content-center.bg-color31
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_24.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -693,7 +693,7 @@
         .row.justify-content-center.bg-color32
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_23.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -703,7 +703,7 @@
         .row.justify-content-center.bg-color33
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_22.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -713,7 +713,7 @@
         .row.justify-content-center.bg-color34
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_38.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -723,7 +723,7 @@
         .row.justify-content-center.bg-color35
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_37.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -733,7 +733,7 @@
         .row.justify-content-center.bg-color36
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_36.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -743,7 +743,7 @@
         .row.justify-content-center.bg-color37
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_35.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -753,7 +753,7 @@
         .row.justify-content-center.bg-color38
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_34.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -763,7 +763,7 @@
         .row.justify-content-center.bg-color39
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_33.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -773,7 +773,7 @@
         .row.justify-content-center.bg-color40
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_32.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -783,7 +783,7 @@
         .row.justify-content-center.bg-color41
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_31.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -793,7 +793,7 @@
         .row.justify-content-center.bg-color42
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_30.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -803,7 +803,7 @@
         .row.justify-content-center.bg-color43
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_29.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -813,7 +813,7 @@
         .row.justify-content-center.bg-color44
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_28.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -823,7 +823,7 @@
         .row.justify-content-center.bg-color45
           .col-10.bg-color20.p-4
             Audio.color-primario.m-auto.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"*Falta1
+              :audio="require('@/assets/curso/tema3/12_27.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -873,14 +873,14 @@ export default {
           personaje: 'Susy',
           textoIng: 'Laurie! When have you *** from Europe?',
           textoEsp: 'Laurie! Cuándo has llegado de Europa?',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema3/audio1.wav'),
           palabra: 'arrived',
         },
         {
           personaje: 'Laurie',
           textoIng: '*** last week, dear friend!',
           textoEsp: 'Desde la semana pasada, querida amiga!',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema3/audio2.wav'),
           palabra: 'Since',
         },
         {
@@ -888,7 +888,7 @@ export default {
           textoIng: 'So, how many *** have you visited on your vacation trip?',
           textoEsp:
             'Entonces, ¿Cuántos paises has visitado en tu viaje de vacaciones?',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema3/audio3.wav'),
           palabra: 'countries',
         },
         {
@@ -896,7 +896,7 @@ export default {
           textoIng: 'Not enough! I have only ***, France, and Italy.',
           textoEsp:
             'No suficientes! Solo he visitado España, Francia e Italia.',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema3/audio4.wav'),
           palabra: 'visited Spain',
         },
         {
@@ -904,14 +904,14 @@ export default {
           textoIng: 'Surely you have not *** your vacation enough.',
           textoEsp:
             'Seguramente no has planeado suficientemente tus vacaciones.',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema3/audio5.wav'),
           palabra: 'planed',
         },
         {
           personaje: 'Laurie',
           textoIng: 'Maybe, but I have *** them to the fullest!',
           textoEsp: 'Quizás, pero las he disfrutado al máximo!',
-          audio: require('@/assets/curso/tema1/audio1.mp3'),
+          audio: require('@/assets/curso/tema3/audio6.wav'),
           palabra: 'enjoyed',
         },
       ],
