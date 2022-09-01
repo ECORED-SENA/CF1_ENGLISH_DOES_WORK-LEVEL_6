@@ -327,7 +327,7 @@ export default {
         },
         {
           personaje: 'Paul',
-          textoIng: 'But you *** has done a pastry course...',
+          textoIng: 'But you *** have done a pastry course...',
           textoEsp: 'Pero, ya tu has hecho un curso de repostería...',
           audio: require('@/assets/curso/tema2/audio2.mp3'),
           palabra: 'already',

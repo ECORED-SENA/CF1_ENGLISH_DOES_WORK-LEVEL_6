@@ -234,17 +234,17 @@
               no-barra
             )
             TarjetaAudio.color-primario.mb-3(
-              texto="<p><em>Mary <c1>has</c1> <c2>listened</c2> <c3>to the radio</c3></em> / Ella ha escuchado la radio.</p>"
+              texto="<p><em>Mary <c1>has</c1> <c2>listened</c2> <c3>to the radio</c3></em> / Mary ha escuchado la radio.</p>"
               :audio="require('@/assets/curso/tema1/2_2.wav')"
               no-barra
             )
             TarjetaAudio.color-primario.mb-3(
-              texto="<p><em>George <c1>has</c1> <c2>bought</c2> <c3>a big house</c3></em> / Él ha comprado una casa grande.</p>"
+              texto="<p><em>George <c1>has</c1> <c2>bought</c2> <c3>a big house</c3></em> / George ha comprado una casa grande.</p>"
               :audio="require('@/assets/curso/tema1/2_3.wav')"
               no-barra
             )
             TarjetaAudio.color-primario.mb-3(
-              texto="<p><em>Ida and Susy <c1>have</c1> <c2>traveled</c2> <c3>abroad</c3></em> / Ellas han viajado al extranjero.</p>"
+              texto="<p><em>Ida and Susy <c1>have</c1> <c2>traveled</c2> <c3>abroad</c3></em> / Ida y Susy han viajado al extranjero.</p>"
               :audio="require('@/assets/curso/tema1/2_4.wav')"
               no-barra
             )
@@ -342,49 +342,49 @@
                     h4.text-center.mb-5.txt-c1 #[i Picture Dictionary Present Perfect Sentences]
                     .row
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Awake- Awoken]]
+                        p.text-center.mb-3 #[b #[i Awake - Awoken]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Lucy has awoken to reality."
                           :audio="require('@/assets/curso/tema1/3_1.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Bit- Bitten]]
+                        p.text-center.mb-3 #[b #[i Bit - Bitten]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Firulay has bitten my favorite toy."
                           :audio="require('@/assets/curso/tema1/3_5.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Beat- Beaten]]
+                        p.text-center.mb-3 #[b #[i Beat - Beaten]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="The boy has beaten  his little friend."
                           :audio="require('@/assets/curso/tema1/3_2.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Buy- Bought]]
+                        p.text-center.mb-3 #[b #[i Buy - Bought]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Frank has bought a blue car."
                           :audio="require('@/assets/curso/tema1/3_6.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Begin- Begun]]
+                        p.text-center.mb-3 #[b #[i Begin - Begun]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Cindy has begun to study French."
                           :audio="require('@/assets/curso/tema1/3_3.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Fly- Flown]]
+                        p.text-center.mb-3 #[b #[i Fly - Flown]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="The eagle has flown to its nest."
                           :audio="require('@/assets/curso/tema1/3_7.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Build- Built]]
+                        p.text-center.mb-3 #[b #[i Build - Built]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="The engineer has built a beautiful building."
                           :audio="require('@/assets/curso/tema1/3_4.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Feel- Felt]]
+                        p.text-center.mb-3 #[b #[i Feel - Felt]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Patrick has felt a lot of pain for your departure."
                           :audio="require('@/assets/curso/tema1/3_8.wav')"
@@ -394,49 +394,49 @@
                     h4.text-center.mb-5.txt-c1 #[i Picture Dictionary Present Perfect Sentences]
                     .row
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Fall- Fallen]]
+                        p.text-center.mb-3 #[b #[i Fall - Fallen]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Billy has fallen from the ladder!"
                           :audio="require('@/assets/curso/tema1/3_9.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Draw- Drawn]]
+                        p.text-center.mb-3 #[b #[i Draw - Drawn]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Vincent has drawn several sketches."
                           :audio="require('@/assets/curso/tema1/3_13.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Eat- Eaten]]
+                        p.text-center.mb-3 #[b #[i Eat - Eaten]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Mark has eaten a big piece of cake!"
                           :audio="require('@/assets/curso/tema1/3_10.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Choose- Chosen]]
+                        p.text-center.mb-3 #[b #[i Choose - Chosen]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Sue has chosen the ring with a diamond."
                           :audio="require('@/assets/curso/tema1/3_14.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Drive- Driven]]
+                        p.text-center.mb-3 #[b #[i Drive - Driven]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Have you ever driven a bike?"
                           :audio="require('@/assets/curso/tema1/3_11.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Catch- Caught]]
+                        p.text-center.mb-3 #[b #[i Catch - Caught]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Robert has caught the ball several times."
                           :audio="require('@/assets/curso/tema1/3_15.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Drink- Drunk]]
+                        p.text-center.mb-3 #[b #[i Drink - Drunk]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Mickie has drunk all the soda."
                           :audio="require('@/assets/curso/tema1/3_12.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Give- Given]]
+                        p.text-center.mb-3 #[b #[i Give - Given]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Lucas has given a birthday present to your baby."
                           :audio="require('@/assets/curso/tema1/3_16.wav')"
@@ -446,49 +446,49 @@
                     h4.text-center.mb-5.txt-c1 #[i Picture Dictionary Present Perfect Sentences]
                     .row
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Go- Gone]]
+                        p.text-center.mb-3 #[b #[i Go - Gone]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="I have gone to the movies twice this week."
                           :audio="require('@/assets/curso/tema1/3_17.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Hide- Hidden]]
+                        p.text-center.mb-3 #[b #[i Hide - Hidden]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Molly has hidden the car keys."
                           :audio="require('@/assets/curso/tema1/3_21.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Get- Got/Gotten]]
+                        p.text-center.mb-3 #[b #[i Get - Got/Gotten]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="All students have got their diplomas."
                           :audio="require('@/assets/curso/tema1/3_18.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Hear- Heard]]
+                        p.text-center.mb-3 #[b #[i Hear - Heard]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Conny has not heard your side of the story."
                           :audio="require('@/assets/curso/tema1/3_22.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Keep- Kept]]
+                        p.text-center.mb-3 #[b #[i Keep - Kept]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Her grandmother has kept her love letters."
                           :audio="require('@/assets/curso/tema1/3_19.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Have- Had]]
+                        p.text-center.mb-3 #[b #[i Have - Had]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Mike has had a lot of work."
                           :audio="require('@/assets/curso/tema1/3_23.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Know- Known]]
+                        p.text-center.mb-3 #[b #[i Know - Known]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Mary has always known that you are married."
                           :audio="require('@/assets/curso/tema1/3_20.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Sing- Sung]]
+                        p.text-center.mb-3 #[b #[i Sing - Sung]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Samantha has sung at the party all night."
                           :audio="require('@/assets/curso/tema1/3_24.wav')"
@@ -498,25 +498,25 @@
                     h4.text-center.mb-5.txt-c1 #[i Picture Dictionary Present Perfect Sentences]
                     .row
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Sell- Sold]]
+                        p.text-center.mb-3 #[b #[i Sell - Sold]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="The travel agency has sold all the tickets to Miami."
                           :audio="require('@/assets/curso/tema1/3_25.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Read- Read]]
+                        p.text-center.mb-3 #[b #[i Read - Read]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Felix has read many novels."
                           :audio="require('@/assets/curso/tema1/3_29.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i See- Seen]]
+                        p.text-center.mb-3 #[b #[i See - Seen]]
                         TarjetaAudio.color-primario.mb-3(
-                          texto="Paul has seen all the works of Picasso in the museum."
+                          texto="Paul has seen all the works of Picasso at the museum."
                           :audio="require('@/assets/curso/tema1/3_26.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Put- Put]]
+                        p.text-center.mb-3 #[b #[i Put - Put]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Candy has put the money in a safe."
                           :audio="require('@/assets/curso/tema1/3_30.wav')"
@@ -528,19 +528,19 @@
                           :audio="require('@/assets/curso/tema1/3_27.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Pay- Paid]]
+                        p.text-center.mb-3 #[b #[i Pay - Paid]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="My parents have paid all my debts"
                           :audio="require('@/assets/curso/tema1/3_31.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Ring- Rung]]
+                        p.text-center.mb-3 #[b #[i Ring - Rung]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Nick has rung all day."
                           :audio="require('@/assets/curso/tema1/3_28.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Meet- Met]]
+                        p.text-center.mb-3 #[b #[i Meet - Met]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="I have met my friends at the club."
                           :audio="require('@/assets/curso/tema1/3_32.wav')"
@@ -550,13 +550,13 @@
                     h4.text-center.mb-5.txt-c1 #[i Picture Dictionary Present Perfect Sentences]
                     .row
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Make- Made]]
+                        p.text-center.mb-3 #[b #[i Make - Made]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Melina has made a very nice ornament."
                           :audio="require('@/assets/curso/tema1/3_33.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Lose- Lost]]
+                        p.text-center.mb-3 #[b #[i Lose - Lost]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Charles has lost his wallet."
                           :audio="require('@/assets/curso/tema1/3_35.wav')"
@@ -568,7 +568,7 @@
                           :audio="require('@/assets/curso/tema1/3_34.wav')"
                         )
                       .col-lg-6
-                        p.text-center.mb-3 #[b #[i Lend- Lent]]
+                        p.text-center.mb-3 #[b #[i Lend - Lent]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="Your cousin has lent you his suit for graduation."
                           :audio="require('@/assets/curso/tema1/3_36.wav')"
@@ -750,7 +750,7 @@
     Separador
     #t_1_4
     .titulo-segundo.color-primario
-      h2 1.4 #[i Structure of questions and answers] / Estructura de preguntas y respuestoas
+      h2 1.4 #[i Structure of questions and answers] / Estructura de preguntas y respuestas
     .row.mb-5
       .col-lg-auto.d-none.d-lg-block
         figure
@@ -781,7 +781,7 @@
             p.text-center.mb-0 #[b #[i Affirmative answer]]
             p.text-center.mb-3 Respuesta afirmativa
             TarjetaAudio.color-primario.mb-3(
-              texto="<p><em>Yes, she has travelled to Europe.</em> / Si, Ella ha viajado a Europa.</p>"
+              texto="<p><em>Yes, she has travelled to Europe.</em> / Si, ella ha viajado a Europa.</p>"
               :audio="require('@/assets/curso/tema1/6_2.wav')"
             )
           .col-lg-6
@@ -893,7 +893,7 @@
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                    p.text-center.mb-3 #[b #[i.txt-c5 #[span.txt-c2 Question:] When has Denisse won the price?]]
+                    p.text-center.mb-3 #[b #[i.txt-c5 #[span.txt-c2 Question:] When has Denisse won the prize?]]
                     p.text-center.mb-0 #[b #[i.txt-c5 #[span.txt-c2 Answer:] Denisse has won the prize three times this year.]]
               .tarjeta.color-primario.p-5
                 .row.justify-content-center.mb-3
@@ -1137,7 +1137,7 @@ export default {
           textoIng: 'No, James. I haven’t *** your car’s keys.',
           textoEsp: 'No, James. No he visto las llaves de tu carro.',
           audio: require('@/assets/curso/tema1/audio1.wav'),
-          palabra: '',
+          palabra: 'seen',
         },
         {
           personaje: 'James',
