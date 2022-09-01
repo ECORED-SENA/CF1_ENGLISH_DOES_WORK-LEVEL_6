@@ -774,14 +774,14 @@
             p.text-center.mb-0 #[b #[i Short answer - affirmative]]
             p.text-center.mb-3 Respuesta corta - afirmativa
             TarjetaAudio.color-primario.mb-3(
-              texto="<p><em>Yes, she has.</em> / Si, ella sí.</p>"
+              texto="<p><em>Yes, she has.</em> / Sí, ella sí.</p>"
               :audio="require('@/assets/curso/tema1/6_4.wav')"
             )
           .col-lg-6
             p.text-center.mb-0 #[b #[i Affirmative answer]]
             p.text-center.mb-3 Respuesta afirmativa
             TarjetaAudio.color-primario.mb-3(
-              texto="<p><em>Yes, she has travelled to Europe.</em> / Si, ella ha viajado a Europa.</p>"
+              texto="<p><em>Yes, she has travelled to Europe.</em> / Sí, ella ha viajado a Europa.</p>"
               :audio="require('@/assets/curso/tema1/6_2.wav')"
             )
           .col-lg-6
