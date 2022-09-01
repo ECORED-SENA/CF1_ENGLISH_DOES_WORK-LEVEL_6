@@ -1156,11 +1156,11 @@ export default {
         {
           personaje: 'James',
           textoIng:
-            'I told you: I’ve *** for the car’s keys all over the house.',
+            'I told you: I’ve searched for the car’s keys all over the house.',
           textoEsp:
             'Te lo dije: he buscado las llaves del carro por toda la casa.',
           audio: require('@/assets/curso/tema1/audio3.mp3'),
-          palabra: 'searched',
+          palabra: '',
         },
       ],
     },

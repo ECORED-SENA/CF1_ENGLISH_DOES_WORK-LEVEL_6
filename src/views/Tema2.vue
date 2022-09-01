@@ -341,10 +341,10 @@ export default {
         },
         {
           personaje: 'Paul',
-          textoIng: 'Well, maybe they haven’t taught that lesson *** ...',
+          textoIng: 'Well, maybe they haven’t taught that lesson yet ...',
           textoEsp: 'Bueno, quizás aún no te han dado esa lección...',
           audio: require('@/assets/curso/tema2/audio3.mp3'),
-          palabra: 'yet',
+          palabra: '',
         },
       ],
     },
