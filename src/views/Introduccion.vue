@@ -3,19 +3,19 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col.mb-4.mb-lg-0
         Traduccion.color-primario(:dialogo="traduccion1")
       .col-auto
         figure
           img(src='@/assets/curso/intro/img1.png')
     p.mb-5 Se invita a explorar el video que se presenta a continuación:
-    figure
+    figure(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/3CRFI7EMTac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     

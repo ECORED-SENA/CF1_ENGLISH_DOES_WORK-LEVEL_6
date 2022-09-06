@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 #[i We have traveled a lot this year!] / ¡Hemos viajado mucho este año!
-    .row
+    .row(data-aos="fade-right")
       .col-lg-5.mb-4.mb-lg-0
         Traduccion.color-primario(:dialogo="traduccion1")
       .col-lg-7
@@ -83,14 +83,14 @@
     #t_3_1
     .titulo-segundo.color-primario
       h2 3.1 #[i Verbs related to transportation] / Verbos relacionados con el transporte
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-lg-5.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema3/img1.png')
       .col-lg-7
         p #[i.txt-c2 In general, there are many verbs that can be related to transportation, to indicate a series of actions such as getting on or off a vehicle, or to indicate how to travel, or also when driving a vehicle, stopping or parking it, among other verbs that can be used, in this case, in the present perfect tense.]
         p #[span.txt-c3 En general, existen muchos verbos que pueden relacionarse con el transporte, para indicar una serie de acciones como subir o bajar de un vehículo, o para señalar la forma de viajar, o también al conducir un vehículo, detenerlo o estacionarlo, entre otros verbos que pueden utilizarse, en este caso, en el tiempo presente perfecto.]
-    .row.bg-color17
+    .row.bg-color17(data-aos="fade-up")
       .col-12.p-5
         p.text-center.mb-5 #[b #[i For example:] / Por ejemplo:]
         SlyderF(columnas="col-lg-4")
@@ -393,7 +393,7 @@
     .titulo-segundo.color-primario
       h2 3.2 #[i Means of transportation] / Medios de transporte
     p.mb-5 #[i.txt-c2 Nowadays, there is a great variety of means of transport, not only for people, but also to carry and bring all kinds of heavy load. Therefore, means of land, water or air transport can be used. The respective vocabulary is presented below.] / #[span.txt-c3 En la actualidad, se cuenta con gran variedad de medios de transporte, no solo para las personas, sino también para llevar y traer todo tipo de carga pesada. Por ello, pueden utilizarse medios de transporte terrestre, acuáticos o aéreos. Conozca el vocabulario respectivo.]
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-auto.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema3/img8.svg').m-auto
@@ -479,7 +479,7 @@
                   .indicador--click(v-if="mostrarIndicadorAudio")
                 p.mb-0.text-center #[b #[i.txt-c5 Zeppelin]]
                 p.mb-0.text-center Dirigible
-    .row.bg-color12.mb-5
+    .row.bg-color12.mb-5(data-aos="fade-left")
       .col-12.p-5
         .row.align-items-center
           .col-lg-10
@@ -658,7 +658,7 @@
             figure
               img(src='@/assets/curso/tema3/img8.svg').m-auto
     p.text-center.mb-5 #[b #[i Ground transportation] / Transporte terrestre]
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-3")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-3")(data-aos="fade-down")
       .tarjeta
         .row.justify-content-center.bg-color29
           .col-10.bg-color20.p-4
@@ -830,7 +830,7 @@
             p.mb-0.text-center #[b #[i.txt-c5 Garbage truck]]
             p.mb-0.text-center Camión de basura
     p.mb-5 A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema:
-    Dialogo.color-acento-contenido(:dialogo="dialogo")
+    Dialogo.color-acento-contenido(:dialogo="dialogo")(data-aos="fade-right")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) #[i A short story] / Un cuento corto.
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.

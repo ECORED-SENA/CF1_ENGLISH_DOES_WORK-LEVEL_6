@@ -2,18 +2,18 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 #[i Time expressions] / Expresiones de tiempo
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-auto.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema2/img1.svg')
       .col-lg
         Traduccion.color-primario(:dialogo="traduccion1")
     p.mb-5.text-center A continuación, puede ver las expresiones de tiempo utilizando algunos ejemplos:
-    .row.bg-color15.mb-5
+    .row.bg-color15.mb-5(data-aos="fade-left")
       .col-12.p-4
         .row.align-items-center
           .col-lg-3.d-none.d-lg-block
@@ -28,7 +28,7 @@
                     Traduccion.color-primario.mb-4(:dialogo="traduccion2")
                     .row.align-items-center
                       .col-lg-auto
-                        figure
+                        figure.mb-lg-3
                           img(src='@/assets/curso/tema2/img4.svg')
                       .col-lg
                         p.mb-3 #[i For example:] / Por ejemplo:
@@ -42,7 +42,7 @@
                     Traduccion.color-primario.mb-4(:dialogo="traduccion3")
                     .row.align-items-center
                       .col-lg-auto
-                        figure
+                        figure.mb-lg-3
                           img(src='@/assets/curso/tema2/img5.svg')
                       .col-lg
                         p.mb-3 #[i For example:] / Por ejemplo:
@@ -56,7 +56,7 @@
                     Traduccion.color-primario.mb-4(:dialogo="traduccion4")
                     .row.align-items-center
                       .col-lg-auto
-                        figure
+                        figure.mb-lg-3
                           img(src='@/assets/curso/tema2/img6.svg')
                       .col-lg
                         p.mb-3 #[i For example:] / Por ejemplo:
@@ -70,7 +70,7 @@
                     Traduccion.color-primario.mb-4(:dialogo="traduccion5")
                     .row.align-items-center
                       .col-lg-auto
-                        figure
+                        figure.mb-lg-3
                           img(src='@/assets/curso/tema2/img7.svg')
                       .col-lg
                         p.mb-3 #[i For example:] / Por ejemplo:
@@ -84,7 +84,7 @@
                     Traduccion.color-primario.mb-4(:dialogo="traduccion6")
                     .row.align-items-center
                       .col-lg-auto
-                        figure
+                        figure.mb-lg-3
                           img(src='@/assets/curso/tema2/img8.svg')
                       .col-lg
                         p.mb-3 #[i For example:] / Por ejemplo:
@@ -98,7 +98,7 @@
                     Traduccion.color-primario.mb-4(:dialogo="traduccion7")
                     .row.align-items-center
                       .col-lg-auto
-                        figure
+                        figure.mb-lg-3
                           img(src='@/assets/curso/tema2/img9.svg')
                       .col-lg
                         p.mb-3 #[i For example:] / Por ejemplo:
@@ -112,7 +112,7 @@
                     Traduccion.color-primario.mb-4(:dialogo="traduccion8")
                     .row.align-items-center
                       .col-lg-auto
-                        figure
+                        figure.mb-lg-3
                           img(src='@/assets/curso/tema2/img10.svg')
                       .col-lg
                         p.mb-3 #[i For example:] / Por ejemplo:
@@ -126,7 +126,7 @@
                     Traduccion.color-primario.mb-4(:dialogo="traduccion9")
                     .row.align-items-center
                       .col-lg-auto
-                        figure
+                        figure.mb-lg-3
                           img(src='@/assets/curso/tema2/img11.svg')
                       .col-lg
                         p.mb-3 #[i For example:] / Por ejemplo:
@@ -140,7 +140,7 @@
                     Traduccion.color-primario.mb-4(:dialogo="traduccion10")
                     .row.align-items-center
                       .col-lg-auto
-                        figure
+                        figure.mb-lg-3
                           img(src='@/assets/curso/tema2/img12.svg')
                       .col-lg
                         p.mb-3 #[i For example:] / Por ejemplo:
@@ -154,7 +154,7 @@
                     Traduccion.color-primario.mb-4(:dialogo="traduccion11")
                     .row.align-items-center
                       .col-lg-auto
-                        figure
+                        figure.mb-lg-3
                           img(src='@/assets/curso/tema2/img13.svg')
                       .col-lg
                         p.mb-3 #[i For example:] / Por ejemplo:
@@ -163,7 +163,7 @@
                           :audio="require('@/assets/curso/tema2/10_10.wav')"
                         )
     p.mb-5 A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema:
-    Dialogo.color-acento-contenido(:dialogo="dialogo")
+    Dialogo.color-acento-contenido(:dialogo="dialogo")(data-aos="fade-right")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) #[i A short story] / Un cuento corto.
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.

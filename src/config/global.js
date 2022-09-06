@@ -105,16 +105,16 @@ export default {
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '1.1',
+            numero: '3.1',
             titulo:
               '<i>Verbs related to transportation</i> / Verbos relacionados con el transporte',
-            hash: 't_1_1',
+            hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.2',
+            numero: '3.2',
             titulo: '<i>Means of transportation</i> / Medios de transporte',
-            hash: 't_1_2',
+            hash: 't_3_2',
           },
         ],
       },

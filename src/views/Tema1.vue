@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 #[i Present perfect] / Presente perfecto
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-6.mb-4.mb-lg-0
         Traduccion.color-primario(:dialogo="traduccion1")
       .col-lg-6
@@ -31,14 +31,14 @@
                 figure
                   img(src='@/assets/curso/tema1/img3.svg', style="width: 500px").m-auto
     p.mb-5 A continuación, se presentan algunos ejemplos:
-    .row.bg-color3.mb-5
+    .row.bg-color3.mb-5(data-aos="fade-left")
       .col-12.p-5
         h4.text-center.mb-5 #[i When should I use the Present Perfect?]
-        .row
-          .col-auto.d-none.d-lg-block
+        .row.align-items-center
+          .col-lg-3.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema1/img4.svg')
-          .col
+          .col-lg-9
             .tarjeta.tarjeta--blanca.p-4
               SlyderA(tipo="b")
                 .row
@@ -181,11 +181,11 @@
                     figure
                       img(src='@/assets/curso/tema1/img10.svg')
     p.mb-5 El siguiente video amplía la información sobre el uso del #[i present perfect].
-    figure.mb-5
+    figure.mb-5(data-aos="fade-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/UA7OSCHDbMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 #[i.txt-c2 As can be seen in the previous examples, the present perfect tense is formed using the auxiliary verb "to have" conjugated in the corresponding grammatical person in the present tense, plus the past participle of the main verb of the sentence, according to the following structure:] / #[span.txt-c3 Como puede observarse en los ejemplos anteriores, el tiempo presente perfecto se forma utilizando el verbo auxiliar “to have” conjugado en la persona gramatical correspondiente en tiempo presente, más el participio pasado del verbo principal de la oración, de acuerdo con la siguiente estructura:]
-    .row.bg-color4
+    .row.bg-color4(data-aos="fade-right")
       .col-12.p-5
         .titulo-sexto.color-acento-contenido.mb-5
           p.mb-0 #[b Tabla 1]. Estructura gramatical del #[i present perfect]
@@ -252,19 +252,19 @@
     #t_1_1
     .titulo-segundo.color-primario
       h2 1.1 #[i Verbs in past participle] / Verbos en participio pasado
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-lg.mb-4.mb-lg-0
         Traduccion.color-primario(:dialogo="traduccion2")
       .col-lg-auto
         figure
           img(src='@/assets/curso/tema1/img2.png')
-    .row.mb-5
+    .row.mb-5(data-aos="fade-down")
       .col-lg
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img17.svg' alt='AvatarTop')
           .tarjeta.tarjeta--c1
-            .p-4
+            .p-3
               p.mb-0 #[b #[i Work + ed = worked]]
               p.mb-0 Trabajar → trabajado
       .col-lg
@@ -272,7 +272,7 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img18.svg' alt='AvatarTop')
           .tarjeta.tarjeta--c1
-            .p-4
+            .p-3
               p.mb-0 #[b #[i Travel + ed = traveled]]
               p.mb-0 Viajar → viajado
       .col-lg
@@ -280,7 +280,7 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img19.svg' alt='AvatarTop')
           .tarjeta.tarjeta--c1
-            .p-4
+            .p-3
               p.mb-0 #[b #[i Dance + ed = danced]]
               p.mb-0 Bailar → bailado
       .col-lg
@@ -288,11 +288,11 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img20.svg' alt='AvatarTop')
           .tarjeta.tarjeta--c1
-            .p-4
+            .p-3
               p.mb-0 #[b #[i Listen + ed = listened]]
               p.mb-0 Escuchar → escuchado
     p.mb-5 #[i.txt-c2 It is important to keep in mind that these verbs have the same form as in the simple past. That is, it will be necessary to analyze the context to be clear about the verb form used. An example will make it much clearer:] / #[span.txt-c3 Es importante tener presente que estos verbos tienen la misma forma que en pasado simple, es decir, sería necesario analizar el contexto para tener claro cuál es la forma verbal utilizada. Con un ejemplo, se verá mucho más claro:]
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-auto.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img3.png')
@@ -330,7 +330,7 @@
                   .col-10.col-lg-auto
                     figure
                       img(src='@/assets/curso/tema1/img28.svg', style="width: 175px").m-auto
-    .row.bg-color6
+    .row.bg-color6(data-aos="fade-left")
       .col-12.p-5
         p.mb-5 #[i.txt-c4 Below is a list of some irregular verbs that are widely used in the English language, with their respective past participles. Also, an example is presented in each case]. #[span.text-white / A continuación, se presenta una lista con algunos verbos irregulares que son muy utilizados en el idioma inglés, con sus respectivos participios pasados. Asimismo, se presenta un ejemplo en cada caso.]
         .row.align-items-center
@@ -580,7 +580,7 @@
     #t_1_2
     .titulo-segundo.color-primario
       h2 1.2 #[i Auxiliary Have - Has ] / Auxiliar #[i Have - Has]
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg.mb-4.mb-lg-0
         Traduccion.color-primario(:dialogo="traduccion3").mb-4
         .row.justify-content-center
@@ -621,13 +621,13 @@
       .col-lg-auto.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema1/img29.svg')
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-lg-auto.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img33.svg')
       .col-lg
         Traduccion.color-primario(:dialogo="traduccion4")
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
         .tabla-a.color-acento-botones
           table
@@ -687,7 +687,7 @@
                   p.mb-0.text-center #[i have (han/habéis)]
                   p.mb-0.text-center #[i have (han)]
     p.mb-5.text-center #[i.txt-c2 From this figure, the following examples are handled:] #[span.txt-c3 / A partir de esta figura, se manejan los siguientes ejemplos:]
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-10
         .row
           .col-lg.bg-color8.p-4.m-2
@@ -744,21 +744,21 @@
     .titulo-segundo.color-primario
       h2 1.3 #[i Affirmative, negative and interrogative structures] / Estructuras afirmativas, negativas e interrogativas
     p.mb-5 #[i.txt-c2 In this compound verb tense (Present Perfect), affirmative, negative and interrogative structures are also handled, as can be seen in the following video:] #[span.txt-c3 / En este tiempo verbal compuesto (Presente Perfecto), también se manejan las estructuras afirmativas, negativas e interrogativas, como se puede observar en el siguiente video:]
-    figure
+    figure(data-aos="fade-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/sNMPApLiotQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_1_4
     .titulo-segundo.color-primario
       h2 1.4 #[i Structure of questions and answers] / Estructura de preguntas y respuestas
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-auto.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema1/img40.svg')
       .col-lg
         Traduccion.color-primario(:dialogo="traduccion5")
     p.mb-5.text-center #[b #[i For example:] / Por ejemplo:]
-    .row.mb-5
+    .row.mb-5(data-aos="fade-up")
       .col-lg-8.bg-color9.p-4.mb-4.mb-lg-0
         figure.mb-5
           img(src='@/assets/curso/tema1/img41.svg')
@@ -805,7 +805,7 @@
           img(src='@/assets/curso/tema1/img42.svg')
     p.mb-3.text-center #[i Some other examples] / Otros ejemplos:
     p.mb-5.text-center #[b #[i.txt-c5 Questions and Answers with Have and Has]]
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg.bg-color10.p-4.m-2
         figure.mb-3
           img(src='@/assets/curso/tema1/img43.svg')
@@ -844,7 +844,7 @@
             p.mb-0.text-center #[b #[i.txt-c2 Yes, the baby has eaten all his breakfast.]]
     p.mb-5 #[i.txt-c2 When specific questions are asked using “Wh questions”, then it is necessary to give a complete answer with the required information.] #[span.txt-c3 / Cuando se trata de preguntas específicas utilizando “Wh questions”, entonces es necesario dar una respuesta completa con la información requerida.]
     p.mb-5 #[i For example:] / Por ejemplo:
-    .row.bg-color12
+    .row.bg-color12(data-aos="fade-left")
       .col-12.p-5
         .row
           .col-lg-4.d-none.d-lg-block
@@ -928,19 +928,19 @@
     #t_1_5
     .titulo-segundo.color-primario
       h2 1.5 #[i Intonation in questions] / Entonación en preguntas
-    .row.mb-5
+    .row.mb-5(data-aos="fade-down")
       .col-lg-auto.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema1/img53.svg')
       .col-lg
         Traduccion.color-primario(:dialogo="traduccion6")
-    .row.bg-color14.mb-5
+    .row.bg-color14.mb-5(data-aos="fade-right")
       .col-12.p-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-3.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema1/img55.svg')
-          .col-lg
+          .col-lg-9
             .tarjeta.tarjeta--blanca.p-4
               SlyderA(tipo="b")
                 .row
@@ -1016,7 +1016,7 @@
                           :audio="require('@/assets/curso/tema1/9_12.wav')"
                         )
     p.mb-5 A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema:
-    Dialogo.color-acento-contenido(:dialogo="dialogo")
+    Dialogo.color-acento-contenido(:dialogo="dialogo")(data-aos="fade-left")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) #[i A short story] / Un cuento corto.
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.

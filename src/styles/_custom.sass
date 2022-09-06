@@ -44,6 +44,24 @@
   100%
     transform: translateX(0px)
 
+.banner-principal__info
+  width: 600px
+  background-image: url("../assets/curso/portada/img2.svg")
+  align-self: stretch
+  background-repeat: no-repeat
+  background-position: 12% 5%
+  background-size: 50%
+  animation: Flitp1 6s ease infinite
+
+@keyframes Flitp1
+  0%
+    background-image: url("../assets/curso/portada/img2.svg")
+  50%
+    background-image: url("../assets/curso/portada/img2.svg")
+    background-position: 20% 5%
+  100%
+    background-image: url("../assets/curso/portada/img2.svg")
+
 .banner-principal__row .banner-principal__img
   width: 470px
 
@@ -130,8 +148,9 @@
   margin: 0px 2px
 
 .tarjeta.color-secundario
-  background-color: #A6BBFF
+  background-color: #8284D2
   height: 450px
+  border-radius: 0px
   transition: all 0.5s
 .tarjeta.color-secundario:hover
   background-color: #3C3FA7
@@ -144,7 +163,7 @@
     border: 2px solid #FFBFC1
 
 .tarjeta.color-acento-botones
-  background-color: #A6BBFF
+  background-color: #6B8DFC
   height: 380px
   transition: all 0.5s
   p
@@ -152,6 +171,9 @@
 .tarjeta.color-acento-botones:hover
   background-color: #3C3FA7
   transition: all 0.5s
+
+.tarjeta-avatar-b__img
+  min-width: 23%
 
 .bg-color1
   background-color: #FFF0F1
