@@ -44,7 +44,7 @@
                 .row
                   .col-12.p-4
                     h4.text-center.mb-5.txt-c1 #[i When used to refer to unfinished actions]
-                    p Cuando se usa para referir acciones no finalizadas. 
+                    p #[i.txt-c2 When used to refer to unfinished actions.] #[span.txt-c3 Cuando se usa para referir acciones no finalizadas.]
                     p #[i.txt-c2 In this case, it is observed that the action started in the past but continues even in the present]. #[span.txt-c3 En este caso, se observa que la acción inició en el pasado, pero continúa aún en el presente]. 
                     p #[i Listen to the audio]:
                     .row.mb-4
@@ -68,7 +68,7 @@
                 .row
                   .col-12.p-4
                     h4.text-center.mb-5.txt-c1 #[i When talking about completed actions]
-                    p #[i.txt-c2 When talking about completed actions, which have occurred in the past, but without saying when they happened]. #[span.txt-c3 Cuando se habla de acciones finalizadas, que han ocurrido en el pasado, pero sin decir cuando sucedieron]. 
+                    p #[i.txt-c2 When talking about completed actions, which have occurred in the past, but without saying when they happened]. #[span.txt-c3 Cuando se habla de acciones finalizadas, que han ocurrido en el pasado, pero sin decir cuándo sucedieron]. 
                     p #[i Listen to the audio]:
                     .row.mb-4
                       .col-lg
@@ -78,7 +78,7 @@
                         )
                       .col-lg
                         TarjetaAudio.color-primario.mb-3(
-                          texto="Lia has lost her Ipod."
+                          texto="Lia has lost her iPod."
                           :audio="require('@/assets/curso/tema1/1_5.wav')"
                         )
                       .col-lg
@@ -339,7 +339,7 @@
               SlyderA(tipo="b")
                 .row
                   .col-12.p-4
-                    h4.text-center.mb-5.txt-c1 #[i Picture Dictionary Present Perfect Sentences]
+                    h4.text-center.mb-5.txt-c1 #[i Dictionary Present Perfect Sentences]
                     .row
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Awake - Awoken]]
@@ -391,7 +391,7 @@
                         )
                 .row
                   .col-12.p-4
-                    h4.text-center.mb-5.txt-c1 #[i Picture Dictionary Present Perfect Sentences]
+                    h4.text-center.mb-5.txt-c1 #[i Dictionary Present Perfect Sentences]
                     .row
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Fall - Fallen]]
@@ -443,7 +443,7 @@
                         )
                 .row
                   .col-12.p-4
-                    h4.text-center.mb-5.txt-c1 #[i Picture Dictionary Present Perfect Sentences]
+                    h4.text-center.mb-5.txt-c1 #[i Dictionary Present Perfect Sentences]
                     .row
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Go - Gone]]
@@ -495,7 +495,7 @@
                         )
                 .row
                   .col-12.p-4
-                    h4.text-center.mb-5.txt-c1 #[i Picture Dictionary Present Perfect Sentences]
+                    h4.text-center.mb-5.txt-c1 #[i Dictionary Present Perfect Sentences]
                     .row
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Sell - Sold]]
@@ -547,7 +547,7 @@
                         )
                 .row
                   .col-12.p-4
-                    h4.text-center.mb-5.txt-c1 #[i Picture Dictionary Present Perfect Sentences]
+                    h4.text-center.mb-5.txt-c1 #[i Dictionary Present Perfect Sentences]
                     .row
                       .col-lg-6
                         p.text-center.mb-3 #[b #[i Make - Made]]
@@ -579,7 +579,7 @@
     Separador
     #t_1_2
     .titulo-segundo.color-primario
-      h2 1.2 #[i Auxiliary Have - Has ] / Auxiliar #[i Have - Has]
+      h2 1.2 #[i Auxiliary have - has ] / Auxiliar #[i have - has]
     .row.mb-5(data-aos="fade-right")
       .col-lg.mb-4.mb-lg-0
         Traduccion.color-primario(:dialogo="traduccion3").mb-4
@@ -722,7 +722,7 @@
                 texto="We have worked very hard."
                 :audio="require('@/assets/curso/tema1/5_2.wav')"
               )
-            p.ms-3.mb-0 Nosotros hemos trabajado duro.
+            p.ms-3.mb-0 Nosotros hemos trabajado muy duro.
           .col-lg.bg-color8.p-4.m-2
             figure.mb-3
               img(src='@/assets/curso/tema1/img38.svg')
@@ -730,7 +730,7 @@
                 texto="You have worked very hard."
                 :audio="require('@/assets/curso/tema1/5_4.wav')"
               )
-            p.ms-3.mb-0 Ustedes han trabajado duro.
+            p.ms-3.mb-0 Ustedes han trabajado muy duro.
           .col-lg.bg-color8.p-4.m-2
             figure.mb-3
               img(src='@/assets/curso/tema1/img39.svg')
@@ -738,7 +738,7 @@
                 texto="They have worked very hard."
                 :audio="require('@/assets/curso/tema1/5_6.wav')"
               )
-            p.ms-3.mb-0 Ellos han trabajado duro.
+            p.ms-3.mb-0 Ellos han trabajado muy duro.
     Separador
     #t_1_3
     .titulo-segundo.color-primario
@@ -1039,7 +1039,7 @@ export default {
           textoIng:
             '<em>The present perfect tense is a compound verb tense and is used to talk about something that happened in the past and is relevant in the present, because it happened recently or because it is an action that has not yet finished. It is also used to indicate a repeated action in a non-specific period of time located between the past and the present, or when an action is mentioned for which the precise moment in which it happened is not important. It is quite useful when you want to tell an anecdote that has happened to you, or describe the trips made, as well as to express experiences or memories.</em>',
           textoEsp:
-            'El tiempo presente perfecto es un tiempo verbal compuesto y se usa para hablar de algo que sucedió en el pasado y tiene relevancia en el presente, debido a que ocurrió hace poco tiempo o debido a que es una acción que aún no ha finalizado. También se emplea al señalar una acción repetida en un periodo temporal inespecífico situado entre el pasado y el presente, o cuando se menciona una acción para la cual no es importante el momento preciso en que aconteció. Resulta bastante útil cuando se quiere contar una anécdota que ha ocurrido, o describir los viajes realizados, así como para expresar experiencias o recuerdos. A continuación, se presentan algunos ejemplos:',
+            'El tiempo presente perfecto es un tiempo verbal compuesto y se usa para hablar de algo que sucedió en el pasado y tiene relevancia en el presente, debido a que ocurrió hace poco tiempo o debido a que es una acción que aún no ha finalizado. También se emplea al señalar una acción repetida en un periodo temporal inespecífico situado entre el pasado y el presente, o cuando se menciona una acción para la cual no es importante el momento preciso en que aconteció. Resulta bastante útil cuando se quiere contar una anécdota que ha ocurrido, o describir los viajes realizados, así como para expresar experiencias o recuerdos.',
         },
       ],
     },
@@ -1149,7 +1149,7 @@ export default {
         {
           personaje: 'Clarisse',
           textoIng: 'Where *** you looked for them?',
-          textoEsp: '¿En donde las has buscado?',
+          textoEsp: '¿En dónde las has buscado?',
           audio: require('@/assets/curso/tema1/audio2.wav'),
           palabra: 'have',
         },

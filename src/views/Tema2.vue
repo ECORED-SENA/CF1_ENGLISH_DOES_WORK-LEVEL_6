@@ -305,14 +305,14 @@ export default {
         {
           personaje: 'Barbie',
           textoIng: 'Have you *** bought cookies at Kris’s Cookies?',
-          textoEsp: 'Alguna vez has probado galletas en Kris’s Cookies',
+          textoEsp: '¿Alguna vez has probado galletas en Kris’s Cookies?',
           audio: require('@/assets/curso/tema2/audio1.wav'),
           palabra: 'ever',
         },
         {
           personaje: 'Paul',
           textoIng: 'Never! Why have you asked me about that?',
-          textoEsp: 'Nunca! ¿Por qué me has preguntado eso?',
+          textoEsp: '¡Nunca! ¿Por qué me has preguntado eso?',
           audio: require('@/assets/curso/tema2/audio1.mp3'),
           palabra: '',
         },
@@ -321,21 +321,21 @@ export default {
           textoIng:
             'Because my friends have said that those cookies are delicious!',
           textoEsp:
-            'Porque mis amigos has dicho que esas galletas son deliciosas!',
+            '¡Porque mis amigos han dicho que esas galletas son deliciosas!',
           audio: require('@/assets/curso/tema2/audio2.wav'),
           palabra: '',
         },
         {
           personaje: 'Paul',
           textoIng: 'But you *** have done a pastry course...',
-          textoEsp: 'Pero, ya tu has hecho un curso de repostería...',
+          textoEsp: 'Pero, ya tú has hecho un curso de repostería...',
           audio: require('@/assets/curso/tema2/audio2.mp3'),
           palabra: 'already',
         },
         {
           personaje: 'Barbie',
           textoIng: 'Yes, but I haven’t learned how to make cookies *** !',
-          textoEsp: 'Si, pero no he aprendido cómo haceer galletas aún!',
+          textoEsp: '¡Sí, pero no he aprendido cómo hacer galletas aún!',
           audio: require('@/assets/curso/tema2/audio3.wav'),
           palabra: 'yet',
         },

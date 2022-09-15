@@ -398,6 +398,7 @@
         figure
           img(src='@/assets/curso/tema3/img8.svg').m-auto
       .col-lg-10
+        p.text-center.mb-5 #[b #[i Air transport] / Transporte aéreo]
         SlyderF(columnas="col-lg-6 col-xl-3")
           .tarjeta
             .row.justify-content-center.bg-color19
@@ -853,7 +854,7 @@ export default {
           textoIng:
             '<em>Traveling is an exciting experience. There are business trips, pleasure trips, adventure trips, tourist trips, even backpackers... and they all allow us to live experiences that are unforgettable, which we can then tell our friends, family or co-workers... and even publish them on social networks.<br><br>Always, at the end of a walk or a trip, we have new anecdotes and stories to tell others.<br><br>In this regard, St. Augustine has said <b>"The world is a book, and those who do not travel read only one page"</b>... that is why it is convenient for the mind, body and spirit to travel whenever possible. For this reason, different types of trip are indicated:</em>',
           textoEsp:
-            'Viajar es una experiencia emocionante. Hay viajes de negocios, de placer, de aventura, turísticos, hasta mochileros…y todos nos permiten vivir experiencias que resultan inolvidables, que podemos contar luego a nuestros amigos, familiares o compañeros de trabajo…y hasta publicarlas en las redes sociales.<br><br>Siempre, al terminar un paseo o un viaje, tenemos nuevas anécdotas e historias para contar a los demás.<br><br>A este respecto, San Agustín ha dicho <i>“El mundo es un libro, y aquellos que no viajan leen solo una página”</i>... por ello, conviene a la mente, al cuerpo y al espíritu viajar cada vez que se pueda. A continuación, se señalan diversos tipos de viaje:',
+            'Viajar es una experiencia emocionante. Hay viajes de negocios, de placer, de aventura, turísticos, hasta mochileros… y todos nos permiten vivir experiencias que resultan inolvidables, que podemos contar luego a nuestros amigos, familiares o compañeros de trabajo… y hasta publicarlas en las redes sociales.<br><br>Siempre, al terminar un paseo o un viaje, tenemos nuevas anécdotas e historias para contar a los demás.<br><br>A este respecto, San Agustín ha dicho <i>“El mundo es un libro, y aquellos que no viajan leen solo una página”</i>... por ello, conviene a la mente, al cuerpo y al espíritu viajar cada vez que se pueda. A continuación, se señalan diversos tipos de viaje:',
         },
       ],
     },
@@ -872,14 +873,14 @@ export default {
         {
           personaje: 'Susy',
           textoIng: 'Laurie! When have you *** from Europe?',
-          textoEsp: 'Laurie! Cuándo has llegado de Europa?',
+          textoEsp: '¡Laurie! ¿Cuándo has llegado de Europa?',
           audio: require('@/assets/curso/tema3/audio1.wav'),
           palabra: 'arrived',
         },
         {
           personaje: 'Laurie',
           textoIng: '*** last week, dear friend!',
-          textoEsp: 'Desde la semana pasada, querida amiga!',
+          textoEsp: '¡Desde la semana pasada, querida amiga!',
           audio: require('@/assets/curso/tema3/audio2.wav'),
           palabra: 'Since',
         },
@@ -887,7 +888,7 @@ export default {
           personaje: 'Susy',
           textoIng: 'So, how many *** have you visited on your vacation trip?',
           textoEsp:
-            'Entonces, ¿Cuántos paises has visitado en tu viaje de vacaciones?',
+            'Entonces, ¿Cuántos países has visitado en tu viaje de vacaciones?',
           audio: require('@/assets/curso/tema3/audio3.wav'),
           palabra: 'countries',
         },
@@ -895,7 +896,7 @@ export default {
           personaje: 'Laurie',
           textoIng: 'Not enough! I have only ***, France, and Italy.',
           textoEsp:
-            'No suficientes! Solo he visitado España, Francia e Italia.',
+            '¡No suficientes! Solo he visitado España, Francia e Italia.',
           audio: require('@/assets/curso/tema3/audio4.wav'),
           palabra: 'visited Spain',
         },
@@ -910,7 +911,7 @@ export default {
         {
           personaje: 'Laurie',
           textoIng: 'Maybe, but I have *** them to the fullest!',
-          textoEsp: 'Quizás, pero las he disfrutado al máximo!',
+          textoEsp: '¡Quizás, pero las he disfrutado al máximo!',
           audio: require('@/assets/curso/tema3/audio6.wav'),
           palabra: 'enjoyed',
         },

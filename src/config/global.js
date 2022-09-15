@@ -100,7 +100,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '3',
         titulo:
-          '<i>¡We have traveled a lot this year!</i> / ¡Hemos viajado mucho este año!',
+          '<i>We have traveled a lot this year!</i> / ¡Hemos viajado mucho este año!',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -126,12 +126,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      //{
-      //  nombreRuta: 'actividad',
-      //  icono: 'far fa-question-circle',
-      //  titulo: 'Actividad didáctica',
-      //  desarrolloContenidos: true,
-      //},
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -172,7 +172,7 @@ export default {
       referencia:
         'Inglés paso a paso con Lucie. (2020). <i>Lección 18: Cómo usar el presente perfecto en inglés</i>.',
       tipo: 'Video',
-      link: 'https://youtu.be/c4VVXj2z7mI',
+      link: 'https://youtu.be/e3Mx9hSAy7Y',
     },
     {
       tema: '<i>Present perfect</i> / Presente perfecto',
